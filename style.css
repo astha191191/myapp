@@ -6,6 +6,14 @@ body{
   font-color: #6A1B9A;
   font-shadow: 2px 2px #6A1B9A; 
 }
+.parallax-inner {
+
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+
+}
 h1{
    font-color: #6A1B9A;
   font-shadow: 2px 2px #6A1B9A; 
@@ -47,4 +55,23 @@ img{
 }
 #img1{
     width: 220px;
+}
+#contact
+{
+background: firebrick;
+}
+
+#contact iframe
+{
+    width: 100%;
+}
+
+.contact_1 h3
+{
+    display: inline;
+}
+.contact_1 a
+{
+    color: white;
+    text-shadow: none;
 }
